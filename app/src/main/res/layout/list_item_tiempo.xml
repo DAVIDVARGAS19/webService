@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/litFechaAux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FECHA: "
+        android:textColor="#43FF00" />
+    <TextView
+        android:id="@+id/litFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/litFechaAux"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:id="@+id/litTemperaturaAux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/litFechaAux"
+        android:textColor="#43FF00"
+        android:text="TEMPERATURA: " />
+    <TextView
+        android:id="@+id/litTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/litFechaAux"
+        android:layout_toEndOf="@+id/litTemperaturaAux"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/litHumedadAux"
+        android:layout_below="@+id/litTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#43FF00"
+        android:text="HUMEDAD: " />
+
+    <TextView
+        android:id="@+id/litHumedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/litTemperaturaAux"
+        android:layout_toEndOf="@+id/litHumedadAux"
+        android:textColor="@color/white" />
+
+
+
+
+</RelativeLayout>
